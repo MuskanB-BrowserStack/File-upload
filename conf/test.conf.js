@@ -5,7 +5,7 @@ const parallelConfig = {
   commonCapabilities: {
     'bstack:options': {
       buildName: 'browserstack build',
-      source: 'webdriverio:sample-master:v1.2'
+      source: 'webdriverio:sample-master:v1.2',
     }
   },
   services: [
@@ -17,24 +17,9 @@ const parallelConfig = {
   capabilities: [
     {
       browserName: 'chrome',
-      browserVersion: 'latest',
       'bstack:options': {
-        os: 'Windows',
-        osVersion: '10',
-      },
-    },
-    {
-      browserName: 'safari',
-      browserVersion: 'latest',
-      'bstack:options': {
-        os: 'OS X',
-        osVersion: 'Big Sur',
-      },
-    },
-    {
-      browserName: 'chrome',
-      'bstack:options': {
-        deviceName: 'Samsung Galaxy S20',
+        "osVersion" : "14.0",
+        "deviceName" : "Samsung Galaxy S24 Ultra",
       },
     },
   ],

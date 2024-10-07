@@ -31,3 +31,10 @@
 * [Customizing your tests on BrowserStack](https://www.browserstack.com/automate/capabilities)
 * [Browsers & mobile devices for selenium testing on BrowserStack](https://www.browserstack.com/list-of-browsers-and-platforms?product=automate)
 * [Using REST API to access information about your tests via the command-line interface](https://www.browserstack.com/automate/rest-api)
+# FileUploadOnAndroidWdio
+1. Use your Browserstack username and access key in test.js file
+2. specify the file path in the localfilepath
+3. use the file name : /data/local/tmp/filename.extension
+4. run the tests using npm run test
+5. you chnage the device configuration in the test.conf.js file
+
